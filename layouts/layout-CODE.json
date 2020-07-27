@@ -1,0 +1,51 @@
+[
+	{
+		"border": "normal",
+		"floating": "auto_off",
+		"fullscreen_mode": 0,
+		"layout": "splith",
+		"percent": null,
+		"type": "con",
+		"nodes": [
+                    {
+                            "border": "pixel",
+                            "current_border_width": 3,
+                            "floating": "auto_off",
+                            "geometry": {
+                                    "height": 362,
+                                    "width": 574,
+                                    "x": 0,
+                                    "y": 0
+                            },
+                            "name": "nvim",
+                            "percent": 0.5,
+                            "swallows": [
+                                    {
+                                            "title": "^nvim$"
+                                    }
+                            ],
+                            "type": "con"
+                    },
+                    {
+                            "border": "pixel",
+                            "current_border_width": 3,
+                            "floating": "auto_off",
+                            "geometry": {
+                                    "height": 362,
+                                    "width": 574,
+                                    "x": 0,
+                                    "y": 0
+                            },
+                            "name": "k@yoga2: ~",
+                            "percent": 0.5,
+                            "swallows": [
+                                {
+                                        "title": "^(?!nvim).*",
+                                        "class": "^Termite$"
+                                }
+                            ],
+                            "type": "con"
+                    }
+		]
+	}
+]

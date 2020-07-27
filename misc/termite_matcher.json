@@ -1,0 +1,6 @@
+"swallows": [
+    {
+            "title": "^(?!nvim).*",
+            "class": "^Termite$"
+    }
+],
